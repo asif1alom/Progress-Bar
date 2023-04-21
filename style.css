@@ -1,0 +1,55 @@
+Body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+display: flex;
+    
+}
+.main-wrap{
+     width: 300px;
+    position: relative;
+     background-color: aqua;
+}
+.wrapper{
+    
+    display: flex;
+   
+    justify-content: space-between;
+    z-index: 1;
+    position: relative;
+   
+   
+}
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid gray;
+    border-radius: 100%;
+    padding: 15px;
+    font-size: 20px;
+    line-height: 10px;
+    background-color: blue;
+}
+.bar-b{
+    position: absolute;
+    height: 3px;
+    width: 300px;
+    background-color: gray;
+    z-index: 0;
+    top: 50%;
+}
+.bar{
+    height: 100%;
+    width: 0%;
+    background-color: rgb(17, 36, 36);
+    
+}
+
+.active{
+    background-color: yellow;
+}
